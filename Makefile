@@ -11,6 +11,7 @@ target/app:
 	cp -r work/MacStorikaze.app temporaire/.
 	cp -r work/shres temporaire/MacStorikaze.app/.
 	cp -rf maintena/storikaze-toc-maker temporaire/MacStorikaze.app/shres/.
+	mkdir -p products
 	cp -r temporaire/MacStorikaze.app products/.
 
 target/utl:
